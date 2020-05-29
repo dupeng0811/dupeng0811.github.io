@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>架构师2014年8月：Netty之道 Azw3 - 读书ReadBook</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	
+	<meta name="description" content="">
+	<meta name="generator" content="Hugo 0.71.1" />
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="/css/highlight.css">
+	
+	
+	<link rel="stylesheet" href="/css/share.min.css">
+	<script src="/js/social-share.min.js"></script>
+	<script src="/js/qrcode.js"></script>
+	
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42551758-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="读书ReadBook" rel="home">
+			<div class="logo__title">读书ReadBook</div>			
+				<div class="logo__tagline">公众号将不定期分享优质书籍和学习资源。学而无术，拾遗补阙。持续学习，路虽远，行则将至 。共勉。</div> 
+			</a>
+			
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">选择</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">资源列表</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/%E8%B1%86%E7%93%A3%E8%AF%84%E5%88%868&#43;/">豆瓣评分8&#43;</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/%E8%B1%86%E7%93%A3%E8%AF%84%E5%88%867&#43;/">豆瓣评分7&#43;</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://ts.51dr.cn">中国古诗词·唐诗</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://sc.51dr.cn">中国古诗词·宋词</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">架构师2014年8月：Netty之道 Azw3</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2017-02-25T20:00:00">2017-02-25</time>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text">11 分钟</time>
+</div></div>
+		</header>
+<div class="content post__content clearfix">
+			<p>吳秀波 與慾望和平相處
+你可以說吳秀波是一個特別世俗的人，所以他可以玩轉名利場，還有望成為上市公司的股東；你也可是說他是一個特別超脫的人，浮華世界裡他總能保持獨善其身，週遭一切的巨變都對他產生不了任何的影響。而他最吸引人的恰恰就是他身上的矛盾氣質，看似對立卻水乳交融。他的波蜜們就總結過：你以為他低調，卻發現他也得瑟；以為他內向，卻發現他也活潑；以為他示弱，卻發現他也驕傲；以為他儒雅，卻發現他也雅痞</p>
+<h2 id="作者简介">作者简介</h2>
+<p>芭莎男士,吳秀波</p>
+<h2 id="下载方式">下载方式</h2>
+<blockquote>
+<p>扫描右侧公众号二维码，聊天窗口回复关键字 <code>10124</code>直接获取下载链接</p>
+</blockquote>
+<h2 id="资源列表">资源列表</h2>
+<table>
+<thead>
+<tr>
+<th align="center">文件名称</th>
+<th align="center">资源类型</th>
+<th align="center">文件大小</th>
+<th align="center">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">架构师2014年8月：Netty之道.azw3</td>
+<td align="center">Azw3</td>
+<td align="center">3.74 MB</td>
+<td align="center"><a href="https://ebookbug.ctfile.com/fs/9104807-353867716">点击下载</a></td>
+</tr>
+</tbody>
+</table>
+<p>吳秀波 與慾望和平相處
+你可以說吳秀波是一個特別世俗的人，所以他可以玩轉名利場，還有望成為上市公司的股東；你也可是說他是一個特別超脫的人，浮華世界裡他總能保持獨善其身，週遭一切的巨變都對他產生不了任何的影響。而他最吸引人的恰恰就是他身上的矛盾氣質，看似對立卻水乳交融。他的波蜜們就總結過：你以為他低調，卻發現他也得瑟；以為他內向，卻發現他也活潑；以為他示弱，卻發現他也驕傲；以為他儒雅，卻發現他也雅痞；以為他純真，卻發現他也狡猾。他自己也說：我以為世界上有兩個吳秀波，另一個是真正能感知到的自我。在他看來，人生就像是一場夢境——虛幻和真實錯綜地交織在一起已不分明。而他又時常會跳脫出夢境，遠遠地看另一個自己，就像看陌生人。其實吳老師用一生在修煉的大智慧是：在紅塵與天地間來去自由。
+吃素跟信仰無關
+早聽說吳老師進院了，半天也沒見著人，出去看，他正跟一眾人圍著攝影師停在院子裡的三輛哈雷聊得熱火朝天，沒聽真切，貌似是新戲裡誰送了他一輛，但十幾年沒騎，已經不太敢騎了。“一上去就害怕，因為想像不到速度，這跟唱歌是一樣的，隔個十年八年不唱，音樂聲一起，你就會慌。”這陣子，他正演著一個音樂老師，三句話不離本行。
+開工前先吃午餐，吳老師居然在吃素，“就是上回跟你們去意大利回來以後開始吃的。”去年他跟《芭莎男士》出國拍了一組大片，算一算，得有一年時間了。 “我的經紀人楊靜，平時工作特忙特累，難免性子就會急躁，問我怎麼辦，我也好為人師，就說那你吃素得了，其實純屬站著說話不腰疼，根本沒走心，結果她聽進去了，平常無肉不歡的人，去了意大利，我們整天不是牛排就是海鮮，只有她啃著面包就著沙拉。我想，我一句話就讓人天天吃這個，多少覺得有點慚愧，跟人瞎支招半天，自己也做不到，回來以後我就說，那我也吃吧，正好趕上一部戲去山裡拍，就開始吃，拍完戲回來我還想找她切磋一下，結果人家早就開戒了。”
+吳老師卻堅持了下來，跟信仰無關，倒有點兒挑戰自身慾望的意思。“本身我是一個在吃上面慾望特別強烈的人，每次點餐，他們都叫我吳半本，基本都是照著半本菜單點下去，所以每天我差不多都要花上兩個小時的時間去琢磨吃什麼，趕上吃之前點菜那一幕比我拍場戲還麻煩，算得上一天裡最重要的一場戰役。現在就不會那麼糾結了，菜單上素菜就沒有多少，省了很多時間。而且素食吃久了，會讓人沒有那麼強大的慾望，這是我現在需要的，每天隨著一日三菜克制自己的慾望，慢慢發現，它不是那麼難以戰勝，它也可以跟你和諧共處。通過這麼一件事，我覺得對我的生命還是很有意義的。”
+早年間，吳秀波有一句被廣泛流傳的名言：人生就是一場修行，修行的其實就是與慾望和諧共處的能力。“你想想，人每一步的成功都是在於戰勝了自己的慾望，比如說，你每天上班，至少你得起床吧；你每天工作，至少要保持笑臉吧。戰勝慾望是可以通過某些鍛鍊來實現的，比如說我以前覺得戒菸是件很困難的事，但這一年我一根菸都沒有抽，很輕易就戒掉了。你要問意義是什麼？可你說健身有意義嗎？未必就讓你活得長，我是覺得，如果能戰勝自己的慾望，本身就是一種樂趣。”
+慢慢他也發現，吃這件事，好壞全在心情，心情好，一碗白米飯也是珍饈美味；心情差，滿漢全席都吃不下去一口。正所謂清心寡慾，心情的好壞與慾望的強弱又是成正比的，至少過去的這一年，吳秀波的每頓飯吃的都還算有滋有味。
+年輕時的慾望都很單純
+吳秀波正在趕拍一部近似於歌舞劇的連續劇《我的青春高八度》，跟一幫沒有表演經驗的年輕歌手們，一起演一個象牙塔裡追夢的故事。對於像他這樣“把命擱在戲裡”的演員，每一個角色都是切身的人生體驗，因為身心投入得太徹底，所以才需要掌握好跳脫的節奏。演完《趙氏孤兒》後，他就一直在接喜劇。“我就不信哪個演員是能連著演十部悲劇的。”
+剛拍完的《離婚律師》就不太好定義，它當然是輕喜劇，但池海東這個角色卻太糾結。“他是個律師，法律上的常識知識都懂，又見多識廣，不僅合法的本事兒多，非法的行為和方案他也瞭如指掌。這樣的一個人，他都是在教人如何防護自己和進攻別人，突然有一天自己的城門失火，讓他剎那間對人生產生了巨大的疑惑，他才體會到婚姻這張紙或者說法律保護不了真正需要的東西。這個時候，他需要回歸到最本質最單純的愛裡去，但恰巧他的職業和經歷又讓他無法重新相信這件事。所以，與其說這部戲講的是男人與女人之間的鬥爭，不如說它講的是一份愛情的重新建立，或者是，單純的愛的慾望如何戰勝所謂的警醒。”
+在吳秀波看來，無論是程嬰（趙氏孤兒）還是池海東，都是跟自己慾望作對的人。“而戲劇的功能在於給觀眾正面積極的指向和信心，觀眾渴望看到的是生不是死，是花開結果而不是落葉凋零，雖然落葉凋零未必就不是真的。《離婚律師》最重要完成的戲劇任務，就是將最原始最簡單的慾望重新揀拾起來。”
+縱使結局是圓滿的，但離婚就是打架，是事關一生幸福的戰爭，每天糾結於對與錯，好與壞，忠誠與背叛，情濃亦或情淡，對演員的身心都是極大摧殘，所以拍完《離婚律師》之後，吳秀波選擇了《我的青春高八度》，理由就是因為它是一部孩子戲。國外這一類戲通常講的是初高中生，但在國內涉及到教育理念和早戀等問題，被改成了大學，但到底都還是處在青春期裡的學生。年輕的好處在於單純，就連慾望都是單純的，所以那時候的慾望是可以被視作為夢想的，只是大部分人在追尋夢想的道路上會隨著成長而漸漸偏離方向失去初心。而這部戲恰恰就只聚焦在青春期的初心階段，因而整部戲的基調是和暖的，不暗黑，也沒有所謂的陰謀論，或者殘酷致命的社會關係，演這樣的戲，對吳秀波來說既是一份工作，也是放鬆和修行。
+他在戲裡的角色是一個音樂老師，這對他不是難事，畢竟是年輕時的專業，最難的還是跳舞。“我是一個四肢極不協調的人，小時候總摔跟頭，跳舞對我來說不僅是不擅長還是有風險的事兒。”所以他跟劇組請來的舞蹈老師說的第一句話就是：“我來學舞，不是你死就是我死。”但這個老師，卻除了教會他舞蹈外，還讓他體悟到什麼是真正的為人師。“其中一場舞，我幾乎沒出什麼差錯就跳完了，轉頭剛好看到他，他臉上滿足、幸福、燦爛的笑容是我沒見過的，我才知道，身為人師，他傳授你的東西在你身上成活了，才無異於是他最大的快樂。那一刻我還深刻的反省了自己，年少時如果能做到讓老師臉上常浮現那樣的笑容，我何至於大器晚成至此。”
+渴望成為一個沒有房子的人
+吳秀波雖好為人師，常以自己的哲學體系布道，但每每說完，在別人點頭稱是並陷入沉思之際，又會給你當頭一棒，比如此刻。
+“我們老說，你的思想決定你的行動，你的行動再決定你的命運，但事實是這樣嗎？思想是哪裡來的？它其實來自於一系列的機緣巧合，以今天來講，我們能坐在一起聊天，來源於雜誌社最初要拍這個選題的念頭，還有你的學識，還有社會家庭環境造就的我，這所有緣份的河流交錯到這裡。所以我不以為，是我體會了什麼，我告訴你什麼，你傳播了什麼，因為所有的一切根本不是你我決定的。過一隻貓也會動一個念頭，可是這隻貓哪裡來的？這也是為什麼我們會說：人類一思索，上帝就發笑。”
+他其實想表達的意思就是，他隨便一說，你隨便一聽，該怎麼活還是怎麼活。 “人都只活這一輩子，反正我不知道我上輩子是做什麼的，每一個人都毫無生命經驗，所有在你面前說長道短的人，不過是五十步笑百步。生命是你自己的，每一次的遊歷，每一次的鬥爭，每一次的放下，都是你自己的。”
+對於哲人吳秀波而言，他自己的人生體驗如果要分界的話，當以父親這個身份來作區隔。在他看來，孩子給人的改變，是讓人類第一次開始嘗試著不以自我為立場，或者說不以自我為唯一立場來看待生命。
+“生命與生俱來的是慾望和自私，可一旦有了後代，你會看到他的犧牲態度，你會看到一隻烏鴉向一隻鷹撲過去，你會看到人不顧生死為自己的後代前仆後繼，這是與最初的慾望違背的，卻又是生命的必然過程。所以為什麼說沒有孩子就永遠長不大？你說我有知識，但知識不是立場。什麼是‘我’？‘我’是由一個個意識和念頭搭建起來的房子，有了孩子之後，你會發現你在拆東牆補西牆，拆了你自己的房子去蓋他那一幢，有的人可能在這個基礎上建立了一個小區，也有人可能拆來拆去，所有的房子都拆了，變回無居無所。其實到最後你會發現，生命最終蓋的這些房子都是毫無意義的居所，是假想的居所。”
+他一進步解釋：“比如說我好難過，難過的想死，但其實人類和所有的生命物種一樣，所需要的不外三樣：水、食物、氧氣，在你說難過之前或之後，這三樣一樣不缺。難過在哪裡，在心，什麼是心？心也是一所房子，是你用所有慾望搭建起來的房子，只要有心的立場存在，世界都是對立的。”
+吳秀波渴望成為一個沒有房子的人，但想要戰勝慾望，本身就又是一個慾望，生命就是‘我’的念頭四處在跟自己打壁球。“放下立場，沒有我執，感受最初生命帶給你最由衷的快樂，這是我的第一千零一個慾望。如果這一千零一個慾望可以戰勝前面的一千個慾望，為什麼不去嘗試呢？當然很難，我還在路上。”
+有關慾望的隻言片語 《芭莎男士》對話吳秀波
+《芭莎男士》：《離婚律師》中間停拍了一陣，網上有很多傳言，比如有說你和姚晨在不斷的改劇本，是這樣嗎？
+吳秀波：真實情況是，我們要拍幾場火車站的戲，但你知道，自從昆明火車站出事之後，你要申請去車站拍戲是有難度的，所以才停下來。復拍以後，《我的青春高八度》又已經開機，變成我兩邊要軋戲，連造型都沒法換，其實是挺無奈的。
+《芭莎男士》：你把每部戲都當人生過，那接下來要演一個警察是出於什麼考慮？
+吳秀波：前陣子拍的雖然都是喜劇，但相對來講，人物都太軟了一點，所以選一個硬派的警察來演一演。另一方面講，這也是我一直在關注和思考的一個群體。我們形容警察或者執法者，民俗裡管他叫判官，宗教裡叫天神或羅漢，所有這一切的稱謂都是神話的稱謂，是沒有貧富限制，沒有命理限制的一個神職，但凡人要擁有這些稱謂，就要體檢和承載這些稱謂給你帶來的東西。神可以不死，你可以嗎？神可以不累，你可以嗎？神不用擔心子女上學問題，你可以嗎？神不用擔心受傷，你可以嗎？這是最有趣和吸引我的地方。這部戲是紀實的風格，講的就是一個普通的北京片警，每天早出晚歸抓小偷，生活很艱辛，但工作又有風險有傷痛，他要面臨生活中很多需要付出而自己又做不到的事，說白了，這其實就是我想體驗的一種生活。
+《芭莎男士》：感覺你是很愛看書的人？
+吳秀波：不是，恰恰相反，我現在基本不看書，小時候愛看，像《格林童話》、《皮諾曹》等等，大了以後我不太相信它，因為不管什麼類型的書，都是由意識幻化而成，意識從哪裡來，是由外界貫輸給你，從我們降生便不可避免的要接受貫輸而來的各種所謂的真理和約定，你相信它它就在，不相信就都是虛空。所以我一直說我沒有信仰，很多時候，我希望只聽憑自己的本能和感知去過人生。還有一點，書是無法真正的紀錄真實的，就像我自己寫劇本或者寫東西，都沒有勇氣去紀錄真實，我只會用夢境裡的東西來紀錄我的感受。
+《芭莎男士》：據說斯諾克是你生活的最大愛好，你甚至為它玩物喪志過？
+吳秀波：是的，我從15歲開始打，曾經瘋狂到每天都要打十幾個小時，其他一切都不管不顧的程度。國外的球手來中國比賽，只要我有時間，我幾乎場場必到，還會等比賽結束後要簽名。我現在已經收集的簽名包括奧沙利文、亨得利、戴維斯等等。但我現在打球比較少，因為以前拍戲胳膊受過傷，雖然好了，但再打球時，運桿已經不能像以前那麼自如了。
+《芭莎男士》：現在還有你嚮往成為的人嗎？
+吳秀波：我的兒子憨哥和雨哥，雖然他們比我小那麼多，但我卻覺得他們比我大，比我擁有更完美的人性，比如真誠、善良、勇敢、堅定……這些是我們曾經都擁有過的，但長大以後被慢慢消磨掉，或者變得不純粹了。我想每個人其實內心深處度都希望能夠回到孩童的世界。</p>
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/%E5%90%B3%E7%A7%80%E6%B3%A2/" rel="tag">吳秀波</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/azw3/" rel="tag">Azw3</a></li>
+	</ul>
+</div>
+	</article>
+</main>
+<div class="social-share"></div>
+  <br/>
+
+
+
+
+<aside class="sidebar">
+<h4>相关文章</h4>
+<div class="widget__content">
+		<ul class="widget__list">
+	
+	<li><a href="/book/detail/33275/">霍金三部曲经典套装（共3本） 豆瓣评分[7.50] Epub, Azw3</a></li>
+	
+	<li><a href="/book/detail/29828/">MrToyy@知乎-(NACL_5)财务笔记 Azw3, Epub</a></li>
+	
+	<li><a href="/book/detail/29827/">(英)汤姆·斯丹迪奇-维多利亚时代的互联网 豆瓣评分[7.80] Azw3, Epub</a></li>
+	
+	<li><a href="/book/detail/29826/">丰子恺-阿咪 豆瓣评分[8.70] Epub, Azw3</a></li>
+	
+	<li><a href="/book/detail/29825/">大肠杆君@知乎-(HOUR_015)土豆驯化记 Epub, Azw3</a></li>
+	
+	<li><a href="/book/detail/29824/">(奥地利)西格蒙德·弗洛伊德-性学三论 豆瓣评分[7.90] Epub, Azw3</a></li>
+	
+	<li><a href="/book/detail/29823/">(美)弗拉基米尔·纳博科夫-玛丽 豆瓣评分[7.70] Epub, Azw3</a></li>
+	
+	<li><a href="/book/detail/29822/">蒋方舟-我承认我不曾历经沧桑 豆瓣评分[7.10] Azw3, Epub</a></li>
+	
+	<li><a href="/book/detail/29821/">徐涛@知乎-(HOUR_025)美国教育的焦虑与创新 Azw3, Epub</a></li>
+	
+	<li><a href="/book/detail/29820/">徐四海-毛泽东诗词全集 豆瓣评分[8.00] Azw3, Epub</a></li>
+	
+</ul>
+</div>
+<br/>
+</aside>
+
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/book/detail/10123/" rel="prev"><span class="post-nav__caption">«&thinsp;前一篇</span><p class="post-nav__post-title">架构师2014年7月：存储系统的那些事儿 Mobi</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="/book/detail/10125/" rel="next"><span class="post-nav__caption">后一篇&thinsp;»</span><p class="post-nav__post-title">架构师2014年9月：Docker Azw3</p></a>
+	</div>
+</nav>
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="搜索..." value="" name="q" aria-label="搜索...">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://51dr.cn/" />
+	</form>
+	
+</div>
+<div class="widget-sidemenu widget">
+	<h4 class="widget__title">扫码关注我们</h4>
+	<nav class="widget__content">
+		<img src="/img/qrcode_for_readbook.jpg"/>
+	</nav>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">近期文章</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38647/">捕婚时代：花点心思谈恋爱 豆瓣评分[6.60] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38646/">挽回 豆瓣评分[6.00] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38645/">挑最自然的吃 Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38644/">指间的阳光 豆瓣评分[8.00] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38643/">指间的幸福 豆瓣评分[5.50] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38642/">指尖的阳光 豆瓣评分[8.00] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38641/">拿什么拯救你我的爱人 豆瓣评分[7.90] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38640/">拼婚 豆瓣评分[6.40] Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38639/">拼图找相公 Epub</a></li>
+			<li class="widget__item"><a class="widget__link" href="/book/detail/38638/">拯救男孩 豆瓣评分[6.00] Epub</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">分类</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/%e8%b1%86%e7%93%a3%e8%af%84%e5%88%867&#43;">豆瓣评分7&#43;</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e8%b1%86%e7%93%a3%e8%af%84%e5%88%868&#43;">豆瓣评分8&#43;</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e8%b1%86%e7%93%a3%e8%af%84%e5%88%869&#43;">豆瓣评分9&#43;</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">联系我们</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:dupeng0811@gmail.com">
+				<svg class="widget-social__link-icon icon-mail" viewBox="0 0 416 288" width="24" height="24" fill="#fff"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>dupeng0811@gmail.com</span>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">友情链接</h4>
+	<div class="widget-social__item widget__item">
+		<a class="widget-social__link widget__link btn" title="读书ReadBook·ebooklist.mobi" rel="noopener noreferrer" href="https://ebooklist.mobi" target="_blank">
+			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="24" height="24">
+			<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+			<span>读书ReadBook·ebooklist.mobi</span>
+		</a>
+		<a class="widget-social__link widget__link btn" title="资源分享·丰富多彩源远流长" rel="noopener noreferrer" href="https://bbs.ebooklist.mobi" target="_blank">
+			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="24" height="24">
+			<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+			<span>资源分享·丰富多彩源远流长</span>
+		</a>
+		<a class="widget-social__link widget__link btn" title="中国古诗词·唐诗" rel="noopener noreferrer" href="https://ts.51dr.cn" target="_blank">
+			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="24" height="24">
+			<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+			<span>中国古诗词·唐诗</span>
+		</a>
+		<a class="widget-social__link widget__link btn" title="中国古诗词·宋词" rel="noopener noreferrer" href="https://sc.51dr.cn" target="_blank">
+			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="24" height="24">
+			<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+			<span>中国古诗词·宋词</span>
+		</a>
+	</div>
+</div>
+
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 读书ReadBook.
+			<span class="footer__copyright-credits">使用 <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> 技术与 <a href="https://github.com/kingfsen/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>主题</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script async src="/js/highlight.js"></script> 
+  <script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+ 
+  
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?10183689da6e10f7fc20eabfa2f3c053";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<script type="text/javascript">
+    (function(){
+        $("pre code").parent().addClass("line-numbers")
+    }())
+</script>
+
+</body>
+</html>
